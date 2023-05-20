@@ -1,0 +1,43 @@
+#maze {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ddd;
+    position: relative;
+  }
+  
+  .player {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: top 0.1s, left 0.1s;
+  }
+  
+  .key {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    position: absolute;
+    top: 440px;
+    left: 440px;
+  }
+  
+  .house {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 440px;
+  }
+  
+  .wall {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    position: absolute;
+  }
+  
